@@ -9,9 +9,11 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
+		
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -25,12 +27,12 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<!-- Slide  1 -->
-				<section>
-					<img style="background-color:#191919; border: none" src="img/reconnect-iv.png" />
-					<p style="position: relative; top: -10px">Stop playing phone tag!</p>
-					<p style="font-size: 0.75em; color: #666">03 JUNE 2019</p>
-						<ul style="font-family: monospace; font-size: 0.45em; color: #AAA; list-style: none; line-height: 1.3em; position: relative; right: 250px; top: 50px">
+
+				<section class="slide-0">
+					<img src="img/reconnect-iv.png" />
+					<p class="subtitle">Stop playing phone tag!</p>
+					<p class="date">03 JUNE 2019</p>
+						<ul>
 							<li>David Carlin</li>
 							<li>Elvin Eng</li>
 							<li>Lindsey Fahys</li>
@@ -38,26 +40,24 @@
 							<li>Pierce Lusk</li>
 						</ul>
 				</section>
-
-				<!-- Slide  2 -->
+				
 				<section>
-					<h2>Outline</h2><br/>
-					<ul style="">
-						<li>Mission</li>
-						<li>Overview</li>
-						<li>Demonstartion</li>
-						<li>Highlighted Technologies</li>
-						<li>Challenges & Improvements</li>
-						<li>Questions</li>
-					</ul>
+					<section class="slide-1">
+						<h1>Outline</h1>
+						<ul>
+							<li><a href="#/2">Mission</a></li>
+							<li><a href="#/2">Overview</a></li>
+							<li><a href="#/2">Demonstartion</a></li>
+							<li><a href="#/2">Highlighted Technologies</a></li>
+							<li><a href="#/2">Challenges & Improvements</a></li>
+							<li><a href="#/2">Questions</a></li>
+						</ul>
+					</section>
 				</section>
 
-				<!-- Slide  3 -->
-				<section>
-
-					<!-- Slide  3 - 1 -->
-					<section data-background-transition="zoom">
-						<h1>Mission</h1><br/>
+				<section> <!-- slide: /2 -->
+					<section class="slide-2" data-background-transition="zoom">
+						<h1>Mission</h1>
 						<p class="fragment fade-in-then-out">
 							There are lots of apps for planning and scheduling.<br/><br/>
 							This app takes advantage of time that you have available 
@@ -66,16 +66,24 @@
 						</p>
 					</section>
 
-					<!-- Slide  3 - 2 -->
-					<section>
-						<h3>Description</h3>
-						<p>REc(=)nnect is for people to create groups and notify that they are available to catch up on the phone for a specified period of time. In a modern world of text-only communication with ambiguity of meanings and no assurance of a response, wouldn't it be nice to know who you could call on the phone without needing to know their schedule or feeling like you are going to bother them? You want to catch up, but you don't want to spend 20 minutes calling five or six people to see if they are free to talk. We have got you covered!
+					<section class="slide-2-1">
+						<h1>Description</h1>
+						<p><b>REconnect</b> allows people to create groups and get
+							notified that they are available to catch up on the phone
+							for a specified period of time. In a modern world of
+							text-only communication with ambiguity of meanings and no
+							assurance of a response, wouldn't it be nice to know who 
+							you could call on the phone without needing to know their 
+							schedule or feeling like you are going to bother them? You
+							want to catch up, but you don't want to spend 20 minutes
+							calling five or six people to see if they are free to talk. 
+							<br/><b>We have got you covered!</b>
 						</p>
 					</section>
 
 					<!-- Slide  3 - 3 -->
 					<section>
-						<h3>Motivation</h3>
+						<h1>Motivation</h1>
 						<p class="fragment fade-in-then-out">
 							Because David said we had to </p>
 						getting to know when people are available for phone talking.
@@ -104,17 +112,18 @@
 					<!-- Slide  4 - 1 -->
 					<section>
 						<h1>Application Overview</h1>
+						<p>stuff</p>
 					</section>
 
 					<!-- Slide  4 - 2 -->
 					<section>
-						<h3>Basic Features</h3>
+						<h1>Basic Features</h1>
 						<p>Register → Create Groups → Add members → Get Notified </p>
 					</section>
 					
 					<!-- Slide  4 - 3 -->
 					<section>
-						<h3>Team Efforts</h3>
+						<h1>Team Efforts</h1>
 						<p>
 						* Coda Document → collaboration
 						* Slack / Scrum → updates
@@ -125,8 +134,10 @@
 
 				<!-- Slide  5 -->
 				<section>
-					<h1>Demo</h1>
-					<p>link</p>
+					<section>
+					<h1>Demonstration</h1>
+					<p>link to some other text</p>
+					</section>
 				</section>
 				
 				<!-- Slide  6 -->
@@ -135,10 +146,12 @@
 					<!-- Slide  6 - 1 -->
 					<section>
 						<h1>Technologies Used</h1>
+						<p></p>
 					</section>
 					<!-- Slide  6 - 2 -->
 					<section>
 						<h1>Socket.io + Twilio</h1>
+						<p></p>
 					</section>
 
 					<!-- Slide  6 - 3 -->
@@ -204,7 +217,8 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+				], 
+				history: true
 			});
 		</script>
 	</body>
