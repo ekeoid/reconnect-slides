@@ -55,3 +55,10 @@
     font-size: 0.9em;
     text-align: left;
 }
+
+.reveal .slide-5-1 img {
+    border: none;
+    position: relative;
+    left: -150px;
+    width: 80%;
+}
