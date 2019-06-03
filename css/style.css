@@ -40,7 +40,7 @@
 .reveal .slide-1 li {
     position: relative;
     right: 200px;
-    
+
 }
 
 .reveal .slide-1 a {
@@ -56,9 +56,140 @@
     text-align: left;
 }
 
+.reveal .slide-2-2 p {
+    text-align: left;
+}
+
+.reveal .slide-2-3 h1 {
+    font-size: 1.9em;
+}
+
+.reveal .slide-2-3 p {
+    text-align: left;
+}
+
+.reveal .slide-2-4 p {
+    text-align: left;
+}
+
+.reveal .slide-3-1 h1 {
+    font-size: 1.8em;
+}
+
+.reveal .slide-3-1 ul {
+    position: relative;
+    right: 250px;
+}
+
+.reveal .slide-3-2 p {
+    text-align: left;
+}
+
+.reveal .slide-3-2 img {
+    position: relative;
+    width: 550px;
+    top: 80px;
+    right: 200px;
+}
+
+.reveal .slide-3-2 div {
+    position: relative;
+    top: -450px;
+    left: 650px;
+    width: 280px;
+    font-size: 0.9em;
+}
+
+.reveal .slide-4-1 p {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.reveal .slide-5 {
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.reveal .slide-5 {
+    font-weight: bold;
+}
+
+.reveal .slide-5-1 img {
+    position: relative;
+    top: 100px;
+}
+.reveal .slide-5-1 p {
+    text-align: left;
+    font-size: 0.6em;
+    width: 270px;
+    position: relative;
+    top: -280px;
+    left: 780px;
+}
+
+.reveal .slide-5-2 {
+    font-size: 0.8em;
+}
+
+.reveal .slide-5-2 pre {
+    display: inline;
+    font-size: 0.9em;
+}
+
+.reveal .slide-5-2 p {
+    width: 210px;
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 0.85em;
+}
+
+.reveal .slide-5-2 ol {
+    margin-top: 20px;
+}
+
+#tech1, #tech2, #tech3, #tech4 {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(255,255,255,0.15);
+    padding: 15px;
+    padding-left: 25px;
+    right: 20px;
+}
+
+#tech1 {
+    width: 200px;
+}
+
+#tech2, #tech3 {
+    width: 250px;
+}
+
+#tech4 {
+    width: 300px;
+    bottom: 25px;
+}
+
 .reveal .slide-5-1 img {
     border: none;
     position: relative;
     left: -150px;
     width: 80%;
+}
+
+.reveal .slide-6 h1 {
+    font-size: 1.6em;
+}
+
+.reveal .slide-6 li {
+    position: relative;
+    left: -180px;
+    font-size: 0.9em;
+}
+
+.reveal .slide-7 h1 {
+    text-shadow: 0 0 15px rgba(0,0,0,0.5), 0 0 10px
 }
