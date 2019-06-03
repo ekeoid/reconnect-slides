@@ -114,6 +114,19 @@
     font-weight: bold;
 }
 
+.reveal .slide-5-1 img {
+    position: relative;
+    top: 100px;
+}
+.reveal .slide-5-1 p {
+    text-align: left;
+    font-size: 0.6em;
+    width: 270px;
+    position: relative;
+    top: -280px;
+    left: 780px;
+}
+
 .reveal .slide-5-2 {
     font-size: 0.8em;
 }
