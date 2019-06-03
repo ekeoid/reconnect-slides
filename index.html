@@ -1,155 +1,174 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-		<link rel="stylesheet" href="css/style.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
-		
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+	<link rel="stylesheet" href="css/style.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
 
-				<section class="slide-0">
-					<img src="img/reconnect-iv.png" />
-					<p class="subtitle">Stop playing phone tag!</p>
-					<p class="date">03 JUNE 2019</p>
-						<ul>
-							<li>David Carlin</li>
-							<li>Elvin Eng</li>
-							<li>Lindsey Fahys</li>
-							<li>Emery Ihegaranya</li>
-							<li>Pierce Lusk</li>
-						</ul>
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section class="slide-0">
+				<img src="img/reconnect-iv.png" />
+				<p class="subtitle">Stop playing phone tag!</p>
+				<p class="date">03 JUNE 2019</p>
+				<ul>
+					<li>David Carlin</li>
+					<li>Elvin Eng</li>
+					<li>Lindsey Fahys</li>
+					<li>Emery Ihegaranya</li>
+					<li>Pierce Lusk</li>
+				</ul>
+			</section>
+
+			<section>
+				<!-- slide: /1 -->
+				<section class="slide-1">
+					<h1>Outline</h1>
+					<ul>
+						<li><a href="#/2">Mission</a></li>
+						<li><a href="#/2">Overview</a></li>
+						<li><a href="#/2">Demonstartion</a></li>
+						<li><a href="#/2">Highlighted Technologies</a></li>
+						<li><a href="#/2">Challenges & Improvements</a></li>
+						<li><a href="#/2">Questions</a></li>
+					</ul>
 				</section>
-				
-				<section> <!-- slide: /1 -->
-					<section class="slide-1">
-						<h1>Outline</h1>
-						<ul>
-							<li><a href="#/2">Mission</a></li>
-							<li><a href="#/2">Overview</a></li>
-							<li><a href="#/2">Demonstartion</a></li>
-							<li><a href="#/2">Highlighted Technologies</a></li>
-							<li><a href="#/2">Challenges & Improvements</a></li>
-							<li><a href="#/2">Questions</a></li>
-						</ul>
-					</section>
-				</section>
+			</section>
 
-				<section> <!-- slide: /2 -->
-					<section class="slide-2" data-background-transition="zoom">
-						<h1>Mission</h1>
-						<p class="fragment fade-in-then-out">
-							There are lots of apps for planning and scheduling.<br/><br/>
-							This app takes advantage of time that you have available 
-							right now. Take that little time to talk on the phone with
-							someone else that is available now!
-						</p>
-					</section>
-
-					<section class="slide-2-1">
-						<h1>Description</h1>
-						<p><b>REconnect</b> allows people to create groups and get
-							notified that they are available to catch up on the phone
-							for a specified period of time. In a modern world of
-							text-only communication with ambiguity of meanings and no
-							assurance of a response, wouldn't it be nice to know who 
-							you could call on the phone without needing to know their 
-							schedule or feeling like you are going to bother them? You
-							want to catch up, but you don't want to spend 20 minutes
-							calling five or six people to see if they are free to talk. 
-							<br/><b>We have got you covered!</b>
-						</p>
-					</section>
-
-					<section class="slide-2-2">
-						<h1>Motivation</h1>
-						<p class="fragment fade-in-then-out">
-							Because David said we had to </p>
-						getting to know when people are available for phone talking.
-						<p class="fragment fade-in-then-out">
-							and Lindey said no to our first idea.
-						</p>
-					</section>
-
-					<section class="slide-2-3">
-						<h1>Minimum Viable Product</h1>
-						<p>This application will register a new user, allow existing users to log in, create a new group, search for members, allow users to add members or delete members, set your current availability, and send notifications for people currently available.</p>
-					</section>
-
-					<section class="slide-2-4">
-						<h1>Results</h1>
-						Registration, Sign Up, Create Groups, Get and Send Notificaitons
-					</section>
-
+			<section>
+				<!-- slide: /2 -->
+				<section class="slide-2" data-background-transition="zoom">
+					<h1>Mission</h1>
+					<p class="fragment fade-in">
+						There are lots of apps for planning and scheduling.<br /><br />
+						Our app allows you to take advantage of your friends and your
+						downtime by (re)connecting you with your friends through conversation.</p>
+					<p class="fragment fade-in">
+						Whether its 5 minutes or a few hours, take that extra time
+						to talk on the phone with a friend that is available now!
+					</p>
 				</section>
 
-				<section> <!-- slide: /3 -->
-					
-					<section class="slide-3-1">
-						<h1>Application Overview</h1>
-						<p>stuff</p>
-					</section>
+				<section class="slide-2-1">
+					<h1>Description</h1>
+					<p><b>REconnect</b> allows people to create groups and get
+						notified that they are available to catch up on the phone
+						for a specified period of time. In a modern world of
+						text-only communication with ambiguity of meanings and no
+						assurance of a response, wouldn't it be nice to know who
+						you could call on the phone without needing to know their
+						schedule or feeling like you are going to bother them? You
+						want to catch up, but you don't want to spend 20 minutes
+						calling five or six people to see if they are free to talk.
+						<br /><b>We have got you covered!</b>
+					</p>
+				</section>
 
-					<section class="slide-3-2">
-						<h1>Basic Features</h1>
-						<p>Register → Create Groups → Add members → Get Notified </p>
-					</section>
-					
-					<section class="slide-3-3">
-						<h1>Team Efforts</h1>
-						<p>
+				<section class="slide-2-2">
+					<h1>Motivation</h1>
+					<p class="fragment fade-in">
+						Have you ever wanted to talk to your friends but dont know
+						when they are availible </p>
+
+					<p class="fragment fade-in">or,<br></p>
+					<p class="fragment fade-in">
+						spend more time calling people in your contact list
+						and no one answers, then by the time you finally connect with
+						someone you cant talk for long?
+					</p>
+					<p class="fragment fade-in">
+						We have and we wanted to make something that we could use
+						to reconnect with our friends!
+					</p>
+				</section>
+
+				<section class="slide-2-3">
+					<h1>Minimum Viable Product</h1>
+					<p>This application registers a new user, allows existing users to log in, create a new groups, search for
+						members, allow users to add members or delete members, set your current availability, and send notifications
+						for people currently available.</p>
+				</section>
+
+				<section class="slide-2-4">
+					<h1>Results</h1>
+					Registration, Sign Up, Create Groups, Get and Send Notificaitons
+				</section>
+
+			</section>
+
+			<section>
+				<!-- slide: /3 -->
+
+				<section class="slide-3-1">
+					<h1>Application Overview</h1>
+					<p>stuff</p>
+				</section>
+
+				<section class="slide-3-2">
+					<h1>Basic Features</h1>
+					<p>Register → Create Groups → Add members → Get Notified </p>
+				</section>
+
+				<section class="slide-3-3">
+					<h1>Team Efforts</h1>
+					<p>
 						* Coda Document → collaboration
 						* Slack / Scrum → updates
-						</p>
-					</section>
-
+					</p>
 				</section>
 
-				<section> <!-- slide: /4 -->
+			</section>
 
-					<section class="slide-4-1" >
+			<section>
+				<!-- slide: /4 -->
+
+				<section class="slide-4-1">
 					<h1>Demonstration</h1>
 					<p>link to some other text</p>
-					</section>
-
 				</section>
-				
-				<section> <!-- slide: /5 -->
-					
-					<section class="slide-5">
-						<h1>Technologies Used</h1>
-						<p></p>
-					</section>
-					
-					<section class="slide-5-1">
-						<h1>Socket.io</h1>
-						<img src="img/socket-io.png"></img>
-						<p></p>
-					</section>
 
-					<section>
-						<h1>Search Typing</h1>
-						<pre style="font-size: 0.4em; width: 70%">
+			</section>
+
+			<section>
+				<!-- slide: /5 -->
+
+				<section class="slide-5">
+					<h1>Technologies Used</h1>
+					<p></p>
+				</section>
+
+				<section class="slide-5-1">
+					<h1>Socket.io</h1>
+					<img src="img/socket-io.png"></img>
+					<p></p>
+				</section>
+
+				<section>
+					<h1>Search Typing</h1>
+					<pre style="font-size: 0.4em; width: 70%">
 							<code class="hljs" data-trim data-line-numbers="4, 6, 11, 13, 18">
 							let userArray = [{ user_name }];
 							let search = "user <input> text";
@@ -172,46 +191,49 @@
 							});
 							</code>
 						</pre>
-					</section>
-
-					<section>
-						<h1>Authentication</h1>
-					</section>
-
-					<section>
-						<h1>Query Strategy</h1>
-					</section>
 				</section>
 
-				<section> <!-- slide: /6 -->
-					<section>
-						<h1>Challenges & Improvements</h1>
-					</section>
+				<section>
+					<h1>Authentication</h1>
 				</section>
 
-				<section> <!-- slide: /7 -->
-					<section style="background-color: rgb(20, 20, 20, 0.5)" data-background="img/question.gif">
-						<h1>Questions</h1>
-					</section>
+				<section>
+					<h1>Query Strategy</h1>
 				</section>
-			</div>
+			</section>
+
+			<section>
+				<!-- slide: /6 -->
+				<section>
+					<h1>Challenges & Improvements</h1>
+				</section>
+			</section>
+
+			<section>
+				<!-- slide: /7 -->
+				<section style="background-color: rgb(20, 20, 20, 0.5)" data-background="img/question.gif">
+					<h1>Questions</h1>
+				</section>
+			</section>
 		</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				], 
-				history: true
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			],
+			history: true
+		});
+	</script>
+</body>
+
 </html>
