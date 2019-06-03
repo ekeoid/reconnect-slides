@@ -13,7 +13,7 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
-		
+
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -40,14 +40,14 @@
 							<li>Pierce Lusk</li>
 						</ul>
 				</section>
-				
+
 				<section> <!-- slide: /1 -->
 					<section class="slide-1">
 						<h1>Outline</h1>
 						<ul>
 							<li><a href="#/2">Mission</a></li>
 							<li><a href="#/2">Overview</a></li>
-							<li><a href="#/2">Demonstartion</a></li>
+							<li><a href="#/2">Demonstration</a></li>
 							<li><a href="#/2">Highlighted Technologies</a></li>
 							<li><a href="#/2">Challenges & Improvements</a></li>
 							<li><a href="#/2">Questions</a></li>
@@ -60,7 +60,7 @@
 						<h1>Mission</h1>
 						<p class="fragment fade-in-then-out">
 							There are lots of apps for planning and scheduling.<br/><br/>
-							This app takes advantage of time that you have available 
+							This app takes advantage of time that you have available
 							right now. Take that little time to talk on the phone with
 							someone else that is available now!
 						</p>
@@ -68,27 +68,22 @@
 
 					<section class="slide-2-1">
 						<h1>Description</h1>
-						<p><b>REconnect</b> allows people to create groups and get
+						<p><br/><b>REconnect</b> allows people to create groups and get
 							notified that they are available to catch up on the phone
-							for a specified period of time. In a modern world of
+							for a specified period of time.<p>In a modern world of
 							text-only communication with ambiguity of meanings and no
-							assurance of a response, wouldn't it be nice to know who 
-							you could call on the phone without needing to know their 
+							assurance of a response, wouldn't it be nice to know who
+							you could call on the phone without needing to know their
 							schedule or feeling like you are going to bother them? You
 							want to catch up, but you don't want to spend 20 minutes
-							calling five or six people to see if they are free to talk. 
-							<br/><b>We have got you covered!</b>
+							calling five or six people to see if they are free to talk.</p>
+							<b>We have got you covered!</b>
 						</p>
 					</section>
 
 					<section class="slide-2-2">
 						<h1>Motivation</h1>
-						<p class="fragment fade-in-then-out">
-							Because David said we had to </p>
-						getting to know when people are available for phone talking.
-						<p class="fragment fade-in-then-out">
-							and Lindey said no to our first idea.
-						</p>
+						<p>Getting to know when people are available for phone talking.</p>
 					</section>
 
 					<section class="slide-2-3">
@@ -96,31 +91,34 @@
 						<p>This application will register a new user, allow existing users to log in, create a new group, search for members, allow users to add members or delete members, set your current availability, and send notifications for people currently available.</p>
 					</section>
 
-					<section class="slide-2-4">
-						<h1>Results</h1>
-						Registration, Sign Up, Create Groups, Get and Send Notificaitons
-					</section>
-
 				</section>
 
 				<section> <!-- slide: /3 -->
-					
+
 					<section class="slide-3-1">
-						<h1>Application Overview</h1>
-						<p>stuff</p>
+						<h1>Basic Features / Overview</h1>
+						<!-- <p>stuff</p> -->
+						<ul>
+							<li>Register</li>
+							<li>Sign Up</li>
+							<li>View Groups</li>
+							<li>Create Groups</li>
+							<li>Add Members</li>
+							<li>Set Status</li>
+							<li>Edit Profile</li>
+							<li>Receive Notifications</li>
+						</ul>
 					</section>
 
 					<section class="slide-3-2">
-						<h1>Basic Features</h1>
-						<p>Register → Create Groups → Add members → Get Notified </p>
-					</section>
-					
-					<section class="slide-3-3">
 						<h1>Team Efforts</h1>
-						<p>
-						* Coda Document → collaboration
-						* Slack / Scrum → updates
-						</p>
+						<!-- <iframe src="https://coda.io/embed/_Qw5m2-j9Q/_suxIm" width=500 height=400 style="max-width: 100%;" allow="fullscreen"></iframe> -->
+						<img src="img/coda.jpg"></img>
+						<div>
+							<p>Collaboration → Coda Document</p>
+							<br/>
+							<p>Updates → Slack / Google Hangouts / Scrum</p>
+						</div>
 					</section>
 
 				</section>
@@ -129,18 +127,57 @@
 
 					<section class="slide-4-1" >
 					<h1>Demonstration</h1>
-					<p>link to some other text</p>
+					<p>Heroku Link: <a href="https://team-pizza-slice.herokuapp.com/">https://team-pizza-slice.herokuapp.com/</a></p>
+					<p>Localhost Link: <a href="http://localhost:8080/#">http://localhost:8080/</a></p>
+					<p>GitHub Link: <a href="https://github.com/dscarlin/group-project-2">https://github.com/dscarlin/group-project-2</a></p>
 					</section>
 
 				</section>
-				
+
 				<section> <!-- slide: /5 -->
-					
+
 					<section class="slide-5">
 						<h1>Technologies Used</h1>
-						<p></p>
+						<div id="tech1">
+							<p>Node</p>
+							<ul>
+								<li>express</li>
+								<li>sequelize</li>
+								<li>axios</li>
+								<li>path</li>
+								<li>dotenv</li>
+								<li>moment</li>
+								<li>vue</li>
+							</ul>
+						</div>
+
+						<div id="tech2">
+							<p>Authentication</p>
+							<ul>
+								<li>express-session</li>
+								<li>passport</li>
+								<li>local-strategy</li>
+								<li>bcrypt</li>
+							</ul>
+						</div>
+
+						<div id="tech3">
+							<p>Messaging</p>
+							<ul>
+								<li>socket.io</li>
+								<li>twilio</li>
+							</ul>
+						</div>
+
+						<div id="tech4">
+							<p>File Handling</p>
+							<ul>
+								<li>express-fileupload</li>
+								<li>aws-sdk</li>
+							</ul>
+						</div>
 					</section>
-					
+
 					<section class="slide-5-1">
 						<h1>Socket.io</h1>
 						<img src="img/socket-io.png"></img>
@@ -158,9 +195,9 @@
 								if (search.length > 0) { search = search.toLowerCase(); }
 								return user.user_name.toLowerCase().includes(search);
 							});
-							
+
 							let suggest = []; //this.suggest
-							
+
 							array.forEach((item, i) => {
 								item.rank = 0;
 								search.split("").forEach((letter) => {
@@ -168,7 +205,7 @@
 									item.rank += item.user_name.match(re).length;
 								});
 								// sorts to ascending order by item.rank
-								suggest.splice(sortedIndex(suggest, item), 0, item);			
+								suggest.splice(sortedIndex(suggest, item), 0, item);
 							});
 							</code>
 						</pre>
@@ -184,13 +221,20 @@
 				</section>
 
 				<section> <!-- slide: /6 -->
-					<section>
+					<section class="slide-6">
 						<h1>Challenges & Improvements</h1>
+						<ul>
+							<li>Testing Multiple Servers on local machine</li>
+							<li>Uploading images to ephemeral server</li>
+							<li>CSS Scoping</li>
+							<li>Package versions</li>
+							<li>Unit testing</li>
+						</ul>
 					</section>
 				</section>
 
 				<section> <!-- slide: /7 -->
-					<section style="background-color: rgb(20, 20, 20, 0.5)" data-background="img/question.gif">
+					<section class="slide-7" data-background="img/question.gif">
 						<h1>Questions</h1>
 					</section>
 				</section>
@@ -209,7 +253,7 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				], 
+				],
 				history: true
 			});
 		</script>
