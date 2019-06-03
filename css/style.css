@@ -114,6 +114,28 @@
     font-weight: bold;
 }
 
+.reveal .slide-5-2 {
+    font-size: 0.8em;
+}
+
+.reveal .slide-5-2 pre {
+    display: inline;
+    font-size: 0.9em;
+}
+
+.reveal .slide-5-2 p {
+    width: 210px;
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 0.85em;
+}
+
+.reveal .slide-5-2 ol {
+    margin-top: 20px;
+}
+
 #tech1, #tech2, #tech3, #tech4 {
     position: relative;
     float: left;

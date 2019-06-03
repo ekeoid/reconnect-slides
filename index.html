@@ -184,6 +184,31 @@
 						<p></p>
 					</section>
 
+					<section class="slide-5-2">
+						<h1>Authentication</h1>
+
+						<div>
+							<p>Local Strategy (own database)</p>
+							<p>Session (middleware)</p>
+							<p>Passport (middleware)</p>
+						</div>
+						<p> > tags onto route to authenticate</p>
+
+						<ol>
+							<li>Submit Form, <pre>POST</pre> request (login)</li>
+							<li>Authentication middleware for local strategy</li>
+							<li>Retrieve <pre>req.body</pre> username/password for Passport</li>
+							<li>Check local database for matching of username / password</li>
+							<li>If error, send response</li>
+							<li>If success, continue with route response</li>
+							<li>Passport attaches <pre>req.login</pre></li>
+							<li>Passport serializes user for sessions</li>
+							<li>Middleware complete to continue rest of POST function</li>
+						</ol>
+
+					</section>
+
+
 					<section>
 						<h1>Search Typing</h1>
 						<pre style="font-size: 0.4em; width: 70%">
@@ -209,10 +234,6 @@
 							});
 							</code>
 						</pre>
-					</section>
-
-					<section>
-						<h1>Authentication</h1>
 					</section>
 
 					<section>
